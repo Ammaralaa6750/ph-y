@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for friend wawaz</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-overlay"></div>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader-content">
+      <h1>Designed & Developed by</h1>
+      <h2>Engineer Ammar Alaa</h2>
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <header>
+      <h1>For Friend Wawaz</h1>
+      <p>Physics Quiz Challenge</p>
+    </header>
+
+    <div id="quiz-container">
+      <!-- Questions will be injected here by JS -->
+    </div>
+  </div>
+
+  <!-- Result Modal (Hidden by default) -->
+  <div id="result-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Quiz Completed!</h2>
+      <div class="score-display">
+        <span id="final-score">0</span> / 30
+      </div>
+      <p id="result-message" class="arabic-text"></p>
+      <button onclick="location.reload()" class="restart-btn">Try Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
